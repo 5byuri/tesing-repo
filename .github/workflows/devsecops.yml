@@ -1,0 +1,50 @@
+# .github/workflows/devsecops.yml 
+name: DevGuard DevSecOps
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  
+    call-secret-scanning:
+        uses: l3montree-dev/devguard-action/.github/workflows/secret-scanning.yml@main
+        with:
+            asset-name: "lk/projects/asdf/assets/asdf"
+            api-url: http://localhost:8080
+        secrets:
+            devguard-token: "${{ secrets.DEVGUARD_TOKEN }}" # you need to create this secret in your GitHub repository settings
+
+    call-sca:
+        uses: l3montree-dev/devguard-action/.github/workflows/sca.yml@main
+        with:
+            asset-name: "lk/projects/asdf/assets/asdf"
+            api-url: http://localhost:8080
+        secrets:
+            devguard-token: "${{ secrets.DEVGUARD_TOKEN }}" # you need to create this secret in your GitHub repository settings
+
+    call-container-scanning:
+        uses: l3montree-dev/devguard-action/.github/workflows/container-scanning.yml@main
+        with:
+            asset-name: "lk/projects/asdf/assets/asdf"
+            api-url: http://localhost:8080
+        secrets:
+            devguard-token: "${{ secrets.DEVGUARD_TOKEN }}" # you need to create this secret in your GitHub repository settings
+
+    call-sast:
+        uses: l3montree-dev/devguard-action/.github/workflows/sast.yml@main
+        with:
+            asset-name: "lk/projects/asdf/assets/asdf"
+            api-url: http://localhost:8080
+        secrets:
+            devguard-token: "${{ secrets.DEVGUARD_TOKEN }}" # you need to create this secret in your GitHub repository settings
+
+    iac:
+        uses: l3montree-dev/devguard-action/.github/workflows/iac.yml@main
+        with:
+            asset-name: "lk/projects/asdf/assets/asdf"
+            api-url: http://localhost:8080
+        secrets:
+            devguard-token: "${{ secrets.DEVGUARD_TOKEN }}" # you need to create this secret in your GitHub repository settings 
