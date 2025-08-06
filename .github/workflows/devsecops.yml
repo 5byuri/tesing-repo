@@ -18,7 +18,7 @@ jobs:
             devguard-token: "${{ secrets.DEVGUARD_TOKEN }}" # you need to create this secret in your GitHub repository settings
 
     call-sca:
-        uses: l3montree-dev/devguard-action/.github/workflows/sca.yml@main
+        uses: l3montree-dev/devguard-action/.github/workflows/code-risk-identification.yml@main
         with:
             asset-name: "lk/projects/asdf/assets/asdf"
             api-url: http://localhost:8080
