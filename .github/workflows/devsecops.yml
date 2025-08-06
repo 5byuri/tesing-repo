@@ -12,39 +12,39 @@ jobs:
     call-secret-scanning:
         uses: l3montree-dev/devguard-action/.github/workflows/secret-scanning.yml@main
         with:
-            asset-name: "lk/projects/asdf/assets/asdf"
-            api-url: http://localhost:8080
+            asset-name: "lars/projects/asd-2/assets/asdf"
+            api-url: https://api.main.devguard.org
         secrets:
             devguard-token: "${{ secrets.DEVGUARD_TOKEN }}" # you need to create this secret in your GitHub repository settings
 
     call-sca:
         uses: l3montree-dev/devguard-action/.github/workflows/code-risk-identification.yml@main
         with:
-            asset-name: "lk/projects/asdf/assets/asdf"
-            api-url: http://localhost:8080
+            asset-name: "lars/projects/asd-2/assets/asdf"
+            api-url: https://api.main.devguard.org
         secrets:
             devguard-token: "${{ secrets.DEVGUARD_TOKEN }}" # you need to create this secret in your GitHub repository settings
 
     call-container-scanning:
         uses: l3montree-dev/devguard-action/.github/workflows/container-scanning.yml@main
         with:
-            asset-name: "lk/projects/asdf/assets/asdf"
-            api-url: http://localhost:8080
+            asset-name: "lars/projects/asd-2/assets/asdf"
+            api-url: https://api.main.devguard.org
         secrets:
             devguard-token: "${{ secrets.DEVGUARD_TOKEN }}" # you need to create this secret in your GitHub repository settings
 
     call-sast:
         uses: l3montree-dev/devguard-action/.github/workflows/sast.yml@main
         with:
-            asset-name: "lk/projects/asdf/assets/asdf"
-            api-url: http://localhost:8080
+            asset-name: "lars/projects/asd-2/assets/asdf"
+            api-url: https://api.main.devguard.org
         secrets:
             devguard-token: "${{ secrets.DEVGUARD_TOKEN }}" # you need to create this secret in your GitHub repository settings
 
     iac:
         uses: l3montree-dev/devguard-action/.github/workflows/iac.yml@main
         with:
-            asset-name: "lk/projects/asdf/assets/asdf"
-            api-url: http://localhost:8080
+            asset-name: "lars/projects/asd-2/assets/asdf"
+            api-url: https://api.main.devguard.org
         secrets:
             devguard-token: "${{ secrets.DEVGUARD_TOKEN }}" # you need to create this secret in your GitHub repository settings 
