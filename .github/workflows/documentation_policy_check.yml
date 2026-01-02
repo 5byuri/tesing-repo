@@ -1,0 +1,18 @@
+# Copyright 2026 Lars Hermges @l3montree GMBH
+
+name: Documentation Policy Check
+on:
+  pull_request:
+
+
+        
+
+
+jobs:
+  documentation_check:
+    uses: l3montree-dev/devguard-action/.github/workflows/documentation-policy-check.yml@add-documentation-policy
+    with:
+      documentation-repo: "5byuri/documentation-repo-test"
+      production-repos: "5byuri/tesing-repo" 
+
+
