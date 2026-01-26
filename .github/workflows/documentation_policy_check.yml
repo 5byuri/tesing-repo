@@ -12,8 +12,9 @@ jobs:
   documentation_check:
     uses: l3montree-dev/devguard-action/.github/workflows/documentation-policy-check.yml@add-documentation-policy
     with:
-      documentation-repo: "5byuri/documentation-repo-test"
-      production-repos: "5byuri/tesing-repo" 
-      policy-url: "https://raw.githubusercontent.com/l3montree-dev/attestation-compliance-policies/refs/heads/documentation_policy_check.rego/policies/documentation_policy_check.rego"
+      documentation_repo: "5byuri/documentation-repo-test"
+      production_repo: "5byuri/tesing-repo"
+      policy_url: "https://raw.githubusercontent.com/l3montree-dev/attestation-compliance-policies/refs/heads/documentation_policy_check.rego/policies/documentation_policy_check.rego"
+
 
 
