@@ -643,7 +643,7 @@
     "state_reason": null,
     "timeline_url": "https://api.github.com/repos/5byuri/tesing-repo/issues/17/timeline",
     "title": "tim demo",
-    "updated_at": "2026-01-27T10:56:59Z",
+    "updated_at": "2026-01-27T11:07:30Z",
     "url": "https://api.github.com/repos/5byuri/tesing-repo/issues/17",
     "user": {
       "avatar_url": "https://avatars.githubusercontent.com/u/191719832?v=4",
@@ -687,17 +687,7 @@
       "total_blocked_by": 0,
       "total_blocking": 0
     },
-    "labels": [
-      {
-        "color": "668195",
-        "default": false,
-        "description": "",
-        "id": 10069078036,
-        "name": "DOCUMENTATION-REQUIRED",
-        "node_id": "LA_kwDOPZR7ic8AAAACWCnwFA",
-        "url": "https://api.github.com/repos/5byuri/tesing-repo/labels/DOCUMENTATION-REQUIRED"
-      }
-    ],
+    "labels": [],
     "labels_url": "https://api.github.com/repos/5byuri/tesing-repo/issues/16/labels{/name}",
     "locked": false,
     "milestone": null,
@@ -727,7 +717,7 @@
     },
     "timeline_url": "https://api.github.com/repos/5byuri/tesing-repo/issues/16/timeline",
     "title": "tim demo",
-    "updated_at": "2026-01-27T00:22:38Z",
+    "updated_at": "2026-01-27T11:06:32Z",
     "url": "https://api.github.com/repos/5byuri/tesing-repo/issues/16",
     "user": {
       "avatar_url": "https://avatars.githubusercontent.com/u/191719832?v=4",
