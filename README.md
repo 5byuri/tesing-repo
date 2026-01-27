@@ -23,42 +23,5 @@
 ⣿⣿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣘⣿⣷⠾⠟⠃⣎⣿⣽⣷⣟⠛⢠⣾⠿⣿⣿⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⢀⣼⠃⠀⠀⠀⠀⠀⠀
 
 ```
-
-test
-test2
-test3
-test4
-test6
-test78
-tests13290
-test
-test
-test123
-luh test
-
-test
-test
-
-test curl
-test curl 2
-
-test3
-blabalbla
-
-
-
-dfaäsodfjöasdoisödf 
-commit demo tim
-
-
-test
-test2t
-review
-
-adfasdf
-asdfasd
-fa
-sdf
-adsf
-asdf
-tim
+clean up
+2
