@@ -32,3 +32,4 @@ LIT
 tests
 WAKE UPasf
 asdf
+atest
