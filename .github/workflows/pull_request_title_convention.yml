@@ -34,6 +34,5 @@ jobs:
     with:
       repositories: "5byuri/tesing-repo,5byuri/documentation-repo-test"
       ticket_repo: "5byuri/tesing-repo"
-      policy_url: "https://raw.githubusercontent.com/l3montree-dev/attestation-compliance-policies/refs/heads/documentation_policy_check.rego/policies/pull_request_ticket_naming_convention.rego"
 
 
