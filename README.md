@@ -26,3 +26,5 @@
 Hello! Weclome to my awesome Project!
 
 This feels like setting up a ctf hehe
+
+cool new feature, has to be documentated
