@@ -23,7 +23,7 @@
 ⣿⣿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣘⣿⣷⠾⠟⠃⣎⣿⣽⣷⣟⠛⢠⣾⠿⣿⣿⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⢀⣼⠃⠀⠀⠀⠀⠀⠀
 
 ```
-Hello! Weclome to my awesome Project!
+Hello! Welcome to my awesome Project!
 
 This feels like setting up a ctf hehe
 
